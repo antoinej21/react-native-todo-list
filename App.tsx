@@ -9,8 +9,9 @@ export default function App() {
       <View style={styles.tasksSection}>
         <Text style={styles.title}>Todo today</Text>
         <View style={styles.tasks}>
-          <Task></Task>
-          <Task></Task>
+          <Task text="💪 Work out 30 minutes"></Task>
+          <Task text="🏠 Ace the react native test"></Task>
+          <Task text="🍸 Chill out"></Task>
         </View>
       </View>
     </View>
